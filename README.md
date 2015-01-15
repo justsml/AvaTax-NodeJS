@@ -1,5 +1,41 @@
-AvaTax-REST-JavaScript
+AvaTax-NodeJS
 =====================
+This is a NodeJS API to help simplify querying tax data.
+
+You will need an API key: 
+[Signup/Service Info](http://developer.avalara.com/)
+
+The test file is a 5-10 LOC example: see test/test.js
+
+Or just try it out:
+
+```
+	git clone git@github.com:justsml/AvaTax-NodeJS.git
+	cd AvaTax-NodeJS
+	npm install
+
+```
+
+Next step, set the environment vars for the Avalara API keys.
+
+```
+
+	# set env w/ your Avalara API keys.
+	export AVA_ACCT_NUMBER=1234567890
+	export AVA_LICENSE_NUMBER=0123456789ABCDEF
+	
+	# Now you're ready to launch!
+	npm test
+
+```
+
+Done!
+
+=====================
+
+Original README
+=====================
+-----------
 [Other Samples](http://developer.avalara.com/api-docs/api-sample-code)
 
 This is a barebones JavaScript sample demonstrating the [AvaTax REST API](http://developer.avalara.com/api-docs/rest) methods:

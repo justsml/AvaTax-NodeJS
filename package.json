@@ -1,0 +1,40 @@
+{
+  "name": "AvaTax-NodeJS",
+  "version": "0.7.1",
+  "description": "Avalara Tax Data NodeJS Class ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justsml/AvaTax-NodeJS.git"
+  },
+  "keywords": [
+    "Tax",
+    "data",
+    "lookup",
+    "avalara",
+    "stripe",
+    "credit",
+    "card",
+    "payments"
+  ],
+  "author": "Dan Levy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justsml/AvaTax-NodeJS/issues"
+  },
+  "homepage": "https://github.com/justsml/AvaTax-NodeJS",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "request": "^2.51.0"
+  }
+}
